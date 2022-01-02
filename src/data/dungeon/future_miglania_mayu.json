@@ -1,0 +1,92 @@
+{
+    "code": "future_miglania_mayu",
+    "info": {
+        "name" : "마유의 꿈 의식",
+        "reward": ["천", "명"],
+        "hard": {
+            "level": 52,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 62,
+            "count": "24 / 60 / 120"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["이절과 몽영이 안 나옵니다."]
+    },{
+        "id": 2,
+        "description": ["IDA 외전 2편 포인트 수집이 가능합니다."]
+    },{
+        "id": 3,
+        "description": ["피어는 2스테이지 레어 맵에서만 나옵니다."]
+    }],
+    "map": [{
+        "normal": "센트럴 파크"
+    }, {
+        "normal": "메디컬 렐름",
+        "rare": "엘지온 의대 부속병원 앞"
+    }, {
+        "normal": "일반병동",
+        "rare": "검사병동"
+    }],
+    "character": {
+        "statusup": ["사키"],
+        "multiple": [{
+            "name": "사키",
+            "rate": "+2x" 
+        }, {
+            "name": "클로드",
+            "rate": "+2x" 
+        },{
+            "name": "이스카",
+            "rate": "+1x" 
+        },{
+            "name": "루이나",
+            "rate": "+1x" 
+        },{
+            "name": "마이티",
+            "rate": "+1x" 
+        },{
+            "name": "포란",
+            "rate": "+1x" 
+        },{
+            "name": "세빈",
+            "rate": "+1x" 
+        },{
+            "name": "제이드",
+            "rate": "+1x" 
+        },{
+            "name": "셀리느",
+            "rate": "+1x" 
+        }],
+        "book": null
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["물"],
+        "appear": ["센트럴 파크", "메디컬 렐름", "일반병동"]
+    },{
+        "id":2,
+        "appear": ["센트럴 파크", "메디컬 렐름", "일반병동"]
+    },{
+        "id":3,
+        "appear": ["센트럴 파크", "메디컬 렐름", "일반병동"]
+    },{
+        "id":4,
+        "weak": ["바람"],
+        "resist": ["땅"],
+        "appear": ["센트럴 파크", "메디컬 렐름", "일반병동"]
+    },{
+        "id":5,
+        "fear": true,
+        "appear": ["메디컬 렐름"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["바람"],
+        "description": ["특이사항 없음"] 
+    }]
+}

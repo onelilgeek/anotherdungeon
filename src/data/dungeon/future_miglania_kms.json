@@ -1,0 +1,89 @@
+{
+    "code": "future_miglania_kms",
+    "info": {
+        "name" : "구 KMS 본사",
+        "reward": ["천", "명"],
+        "hard": {
+            "level": 65,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 70,
+            "count": "24 / 60 / 120"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["이절과 몽영이 안 나옵니다."]
+    },{
+        "id": 2,
+        "description": ["창궁외전 포인트 수집이 가능합니다."]
+    }],
+    "map": [{
+        "normal": "엔트런스"
+    }, {
+        "normal": "집무층",
+        "rare": "위성층"
+    }, {
+        "normal": "연구실층",
+        "rare": "은폐층"
+    }],
+    "character": {
+        "statusup": ["갤리어드"],
+        "multiple": [{
+            "name": "비아카",
+            "rate": "x1.5" 
+        }, {
+            "name": "갤리어드",
+            "rate": "x1.2" 
+        },{
+            "name": "노놀드",
+            "rate": "x1.2" 
+        },{
+            "name": "헬레나",
+            "rate": "x1.2" 
+        },{
+            "name": "로벨라",
+            "rate": "x1.2"
+        },{
+            "name": "리이카",
+            "rate": "x1.2"
+        },{
+            "name": "쿨레르보",
+            "rate": "x1.2"
+        },{
+            "name": "세티",
+            "rate": "x1.2"
+        },{
+            "name": "렌리",
+            "rate": "x1.2"
+        },{
+            "name": "에이미",
+            "rate": "x1.2"
+        }],
+        "book": null
+    },
+    "monster": [{
+        "id":1,
+        "appear": ["엔트런스", "집무층", "연구실층"]
+    },{
+        "id":2,
+        "weak": ["땅"],
+        "appear": ["엔트런스", "집무층", "연구실층"]
+    },{
+        "id":3,
+        "weak": ["타격"],
+        "appear": ["엔트런스", "집무층", "연구실층"]
+    },{
+        "id":4,
+        "weak": ["타격"],
+        "fear": true,
+        "appear": ["엔트런스", "집무층"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["타격"],
+        "description": ["특이사항 없음"] 
+    }]
+}

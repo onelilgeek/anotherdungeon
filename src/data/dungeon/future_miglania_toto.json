@@ -1,0 +1,69 @@
+{
+    "code": "future_miglania_toto",
+    "info": {
+        "name" : "토토 드림랜드",
+        "reward": ["천"],
+        "hard": {
+            "level": 70,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 76,
+            "count": "24 / 60 / 120"
+        },
+        "dream": true
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["Hard에서 토토무기 강화가 가능합니다."]
+    },{
+        "id": 2,
+        "description": ["Very Hard에서 정령무기 강화가 가능합니다."]
+    }],
+    "map": [{
+        "normal": "게이트 스퀘어"
+    }, {
+        "normal": "중앙 구역",
+        "rare": "원더 구역"
+    }, {
+        "normal": "파크 시어터",
+        "rare": "파라다이스 시어터"
+    }],
+    "character": {
+        "statusup": null,
+        "multiple": null,
+        "book": [{"name": "에이미", "kor": "갓 핸드"},
+            {"name": "듀이", "kor": "템페스터"},
+            {"name": "필로", "kor": "아무르타트"},
+            {"name": "키쿄", "kor": "릴라 블리츠"},
+            {"name": "신시아", "kor": "그리므와르"}]
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["찌르기"],
+        "appear": ["게이트 스퀘어", "중앙 구역", "파크 시어터"]
+    },{
+        "id":2,
+        "weak": ["타격"],
+        "appear": ["게이트 스퀘어", "중앙 구역", "파크 시어터"]
+    },{
+        "id":3,
+        "weak": ["베기", "불"],
+        "appear": ["게이트 스퀘어", "중앙 구역", "파크 시어터"]
+    },{
+        "id":4,
+        "weak": ["찌르기"],
+        "fear": true,
+        "appear": ["게이트 스퀘어", "중앙 구역"]
+    },{
+        "id":5,
+        "weak": ["베기", "불"],
+        "rarefear": true,
+        "appear": ["중앙 구역"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "description": ["전체 물리공격 주의"] 
+    }]
+}

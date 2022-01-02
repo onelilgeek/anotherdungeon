@@ -1,0 +1,90 @@
+{
+    "code": "ancient_zerberiya_shadow",
+    "info": {
+        "name" : "고대 제르베리야 그림자",
+        "reward": ["천", "명"],
+        "veryhard": {
+            "level": 80,
+            "count": "24 / 60 / 120"
+        },
+        "dream": true
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["이절과 몽영이 나옵니다."]
+    },{
+        "id": 2,
+        "description": ["아주르 무기 2종 제작/강화가 가능합니다.", "(그림자속성 무기)"]
+    }],
+    "map": [{
+        "normal": "험난한 길"
+    }, {
+        "normal": "수렴의 길",
+        "rare": "비천의 길"
+    }, {
+        "normal": "어스름의 층",
+        "rare": "암담의 층"
+    }],
+    "character": {
+        "statusup": ["클라르테"],
+        "multiple": null,
+        "book": [{"name": "메리나", "kor": "말아흐"},
+                {"name": "미스트레아", "kor": "이사야"},
+                {"name": "틸릴", "kor": "어비스 데보티"},
+                {"name": "로제타", "kor": "저지먼트"},
+                {"name": "미르샤", "kor": "에페파네노스"}]
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["번개"],
+        "resist": ["찌르기", "그림자"],
+        "appear": ["험난한 길", "수렴의 길"]
+    },{
+        "id":2,
+        "weak": ["땅", "번개"],
+        "resist": ["그림자"],
+        "description": ["체력 많음"],
+        "appear": ["험난한 길", "수렴의 길"]
+    },{
+        "id":3,
+        "weak": ["결정"],
+        "resist": ["불"],
+        "description": ["속도 빠름"],
+        "appear": ["험난한 길", "수렴의 길"]
+    },{
+        "id": 4,
+        "weak": ["타격", "번개"],
+        "resist": ["그림자"],
+        "description": ["체력 많음"],
+        "appear": ["어스름의 층"]
+    },{
+        "id": 5,
+        "weak": ["번개"],
+        "resist": ["마법", "그림자"],
+        "appear": ["어스름의 층"]
+    },{
+        "id": 6,
+        "weak": ["번개"],
+        "resist": ["그림자"],
+        "appear": ["어스름의 층"]
+    },{
+        "id":7,
+        "weak": ["땅", "번개"],
+        "resist": ["그림자"],
+        "fear": true,
+        "appear": ["수렴의 길"]
+    },{
+        "id":8,
+        "weak": ["번개"],
+        "resist": ["그림자"],
+        "fear": true,
+        "appear": ["어스름의 층"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["번개"],
+        "resist": ["그림자(흡수)"],
+        "description": ["70% 이하 패턴변화"] 
+    }]
+}

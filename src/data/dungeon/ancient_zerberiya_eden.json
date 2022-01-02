@@ -1,0 +1,80 @@
+{
+    "code": "ancient_zerberiya_eden",
+    "info": {
+        "name" : "실락의 도시",
+        "reward": ["천", "명"],
+        "veryhard": {
+            "level": 80,
+            "count": "24 / 60 / 120"
+        },
+        "dream": true
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["이절과 몽영이 나옵니다."]
+    },{
+        "id": 2,
+        "description": ["루나 무기 강화가 가능합니다.", "10강시 속도+30 옵션이 있으니", "여유 되시면 강화를 추천드립니다."]
+    }],
+    "map": [{
+        "normal": "Area Brigitte"
+    }, {
+        "normal": "날개의 층",
+        "rare": "두 날개의 층"
+    }, {
+        "normal": "검의 탑",
+        "rare": "하사받은 검의 탑"
+    }],
+    "character": {
+        "statusup": ["클라르테"],
+        "multiple": null,
+        "book": [{"name": "메리나", "kor": "말아흐"},
+                {"name": "미스트레아", "kor": "이사야"},
+                {"name": "틸릴", "kor": "어비스 데보티"},
+                {"name": "로제타", "kor": "저지먼트"},
+                {"name": "미르샤", "kor": "에페파네노스"}]
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["번개"],
+        "resist": ["그림자(흡수)"],
+        "appear": ["Area Brigitte"]
+    },{
+        "id":2,
+        "weak": ["타격", "결정"],
+        "resist": [ "불", "물", "바람", "땅", "그림자", "번개"],
+        "appear": ["Area Brigitte"]
+    },{
+        "id":3,
+        "weak": ["그림자"],
+        "resist": ["번개(흡수)"],
+        "appear": ["Area Brigitte"]
+    },{
+        "id": 4,
+        "weak": ["불","번개"],
+        "resist": ["그림자(흡수)"],
+        "description": ["체력 많음"],
+        "appear": ["날개의 층", "검의 탑"]
+    },{
+        "id": 5,
+        "weak": ["바람", "그림자"],
+        "resist": ["번개(흡수)"],
+        "appear": ["날개의 층", "검의 탑"]
+    },{
+        "id": 6,
+        "weak": ["베기", "타격", "결정"],
+        "resist": [ "불", "물", "바람", "땅", "그림자", "번개"],
+        "appear": ["날개의 층", "검의 탑"]
+    },{
+        "id":7,
+        "weak": ["베기", "타격", "결정"],
+        "resist": [ "불", "물", "바람", "땅", "그림자", "번개"],
+        "fear": true,
+        "appear": ["날개의 층", "검의 탑"]
+    }],
+    "boss": [{
+        "id":1,
+        "weak": ["결정"], 
+        "description": ["특이사항 없음"]
+    }]
+}

@@ -1,0 +1,65 @@
+{
+    "code": "present_miglania_miglance",
+    "info": {
+        "name" : "미글랜스 성",
+        "reward": ["천"],
+        "hard": {
+            "level": 40,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 66,
+            "count": "24 / 60 / 120"
+        },
+        "dream": true
+    },
+    "preview": null,
+    "map": [{
+        "normal": "로비"
+    }, {
+        "normal": "성루",
+        "rare": "문탑"
+    }, {
+        "normal": "별관",
+        "rare": "위병소"
+    }],
+    "character": {
+        "statusup": ["알도"],
+        "multiple": null,
+        "book":[{"name": "라디아스", "kor": "홍염 기사"},
+            {"name": "시온", "kor": "카구츠치"},
+            {"name": "아나벨", "kor": "성기사"},
+            {"name": "베르트랑", "kor": "이스쿠두"},
+            {"name": "펠미나", "kor": "이스마일"},
+            {"name": "시구레", "kor": "해신"},
+            {"name": "히이나", "kor": "카라쿠레나이"}]
+    },
+    "monster": [{
+        "id":1,
+        "appear": ["로비", "성루", "별관"]
+    },{
+        "id":2,
+        "appear": ["로비", "성루", "별관"]
+    },{
+        "id":3,
+        "appear": ["로비", "성루", "별관"]
+    },{
+        "id":4,
+        "appear": ["로비", "성루", "별관"]
+    },{
+        "id":5,
+        "appear": ["로비", "성루", "별관"]
+    },{
+        "id":6,
+        "fear": true,
+        "appear": ["로비", "성루"]
+    },{
+        "id":7,
+        "rarefear": true,
+        "appear": ["성루"]
+    }],        
+    "boss": [{
+        "id":1,
+        "description": ["특이사항 없음"]
+    }]
+}

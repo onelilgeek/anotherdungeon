@@ -1,0 +1,67 @@
+{
+    "code": "present_miglania_firecastle",
+    "info": {
+        "name" : "불타는 마수성",
+        "reward": ["천", "명"],
+        "hard": {
+            "level": 65,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 70,
+            "count": "24 / 60 / 120"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["마검외전2 포인트 수집이 가능합니다."]
+    },{
+        "id": 2,
+        "description": ["불굴무기 제작 재료를 수집할 수 있습니다."]
+    }],
+    "map": [{
+        "normal": "전방 호위탑"
+    }, {
+        "normal": "감시탑",
+        "rare": "흉벽부 감시탑"
+    }, {
+        "normal": "주탑",
+        "rare": "주탑 내 저장고"
+    }],
+    "character": {
+        "statusup": ["디아드라"],
+        "multiple": null,
+        "book": [{"name": "브리아", "kor": "아레스 다이아"}]
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["찌르기", "바람"],
+        "resist": ["불", "땅"],
+        "appear": ["전방 호위탑", "감시탑", "주탑"]
+    },{
+        "id":2,
+        "weak": ["땅"],
+        "resist": ["불", "물"],
+        "appear": ["전방 호위탑", "감시탑", "주탑"]
+    },{
+        "id":3,
+        "weak": ["불", "땅"],
+        "resist": ["베기"],
+        "appear": ["전방 호위탑", "감시탑", "주탑"]
+    },{
+        "id":4,
+        "weak": ["베기", "불"],
+        "resist": ["타격", "물"],
+        "appear": ["전방 호위탑", "감시탑", "주탑"]
+    },{
+        "id":5,
+        "weak": ["베기", "불"],
+        "resist": ["타격", "물"],
+        "fear": true,
+        "appear": ["전방 호위탑", "감시탑"]
+    }],        
+    "boss": [{
+        "id":1,
+        "description": ["첫 턴부터 전체기 날아오니 주의할 것"] 
+    }]
+}

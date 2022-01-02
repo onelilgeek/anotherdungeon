@@ -1,0 +1,53 @@
+{
+    "code": "future_miglania_corridor",
+    "info": {
+        "name" : "시층회랑",
+        "reward": ["명"],
+        "hard": {
+            "level": 48,
+            "count": "0 / 24 / 96"
+        }
+    },
+    "preview": null,
+    "map": [{
+        "normal": "미래공간"
+    }, {
+        "normal": "고대공간",
+        "rare": "중세공간"
+    }, {
+        "normal": "현대공간",
+        "rare": "근대공간"
+    }],
+    "character": {
+        "statusup": null,
+        "multiple": null,
+        "book": null
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["물"],
+        "resist": ["불"],
+        "appear": ["미래공간", "고대공간", "현대공간"]
+    },{
+        "id":2,
+        "weak": ["땅"],
+        "resist": ["물"],
+        "appear": ["미래공간", "고대공간", "현대공간"]
+    },{
+        "id":3,
+        "weak": ["불", "땅"],
+        "resist": ["베기", "찌르기", "물", "바람"],
+        "appear": ["미래공간", "고대공간", "현대공간"]
+    },{
+        "id": 4,
+        "weak": ["땅"],
+        "resist": ["물"],
+        "fear": true,
+        "appear": ["미래공간", "고대공간"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "description": ["특이사항 없음"] 
+    }]
+}

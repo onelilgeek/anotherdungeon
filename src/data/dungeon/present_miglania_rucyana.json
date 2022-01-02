@@ -1,0 +1,60 @@
+{
+    "code": "present_miglania_ryuyana",
+    "info": {
+        "name" : "비경 - 루차나 고적",
+        "reward": ["천", "명"],
+        "hard": {
+            "level": 66,
+            "count": "0 / 24 / 96"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["자세한 사항은 공략을 참고해 주세요.", "https://cafe.naver.com/anothereden/71984"]
+    }],
+    "map": [{
+        "normal": "루차나 고적"
+    },{
+        "normal": "루차나 고적"
+    },{
+        "normal": "루차나 고적"
+    }],
+    "character": {
+        "statusup": null,
+        "multiple": null,
+        "book": null
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["불"],
+        "appear": ["루차나 고적"]
+    },{
+        "id":2,
+        "weak": ["바람"],
+        "appear": ["루차나 고적"]
+    },{
+        "id":3,
+        "weak": ["물"],
+        "appear": ["루차나 고적"]
+    },{
+        "id":4,
+        "weak": ["불"],
+        "appear": ["루차나 고적"]
+    },{
+        "id":5,
+        "weak": ["땅"],
+        "appear": ["루차나 고적"]
+    },{
+        "id":6,
+        "weak": ["불", "타격"],
+        "appear": ["루차나 고적"]
+    },{
+        "id":7,
+        "fear": true,
+        "appear": ["루차나 고적"]
+    }],        
+    "boss": [{
+        "id":1,
+        "description": ["특이사항 없음"] 
+    }]
+}

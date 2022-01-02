@@ -1,0 +1,86 @@
+{
+    "code": "ancient_miglania_dragonpalace",
+    "info": {
+        "name" : "용궁성",
+        "reward": ["천", "명"],
+        "hard": {
+            "level": 40,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 50,
+            "count": "24 / 60 / 120"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["이절과 몽영이 안 나옵니다."]
+    },{
+        "id": 2,
+        "description": ["용궁외전 포인트 수집이 가능합니다."]
+    },{
+        "id": 3,
+        "description": ["피어는 2스테이지 레어 맵에서만 나옵니다."]
+    }],
+    "map": [{
+        "normal": "대궐 입구"
+    }, {
+        "normal": "바닷물의 복도",
+        "rare": "소용돌이의 복도"
+    }, {
+        "normal": "산호의 복도",
+        "rare": "물보라의 복도"
+    }],
+    "character": {
+        "statusup": ["시에라"],
+        "multiple": [{
+            "name": "나기",
+            "rate": "x2" 
+        }, {
+            "name": "치요",
+            "rate": "x1.3" 
+        },{
+            "name": "프라이",
+            "rate": "x1.1" 
+        },{
+            "name": "레레",
+            "rate": "x1.1" 
+        },{
+            "name": "시에라",
+            "rate": "Normal +45 / FEAR +900 / BOSS +450"
+        }],
+        "book": null
+    },
+    "monster": [{
+        "id":1,
+        "weak": null,
+        "resist": ["물"],
+        "appear": ["대궐 입구", "바닷물의 복도", "산호의 복도"]
+    },{
+        "id":2,
+        "weak": ["땅"],
+        "resist": ["물"],
+        "appear": ["대궐 입구", "바닷물의 복도", "산호의 복도"]
+    },{
+        "id":3,
+        "weak": ["불"],
+        "resist": ["타격", "바람"],
+        "appear": ["대궐 입구", "바닷물의 복도", "산호의 복도"]
+    },{
+        "id": 4,
+        "weak": null,
+        "resist": ["베기"],
+        "appear": ["대궐 입구", "바닷물의 복도", "산호의 복도"]
+    },{
+        "id":5,
+        "rarefear": true,
+        "appear": ["바닷물의 복도"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["땅"],
+        "resist": ["물"],
+        "description": ["껍질에 들어가면 모든 속성 내성"]
+    }]
+}

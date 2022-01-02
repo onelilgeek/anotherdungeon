@@ -1,0 +1,77 @@
+{
+    "code": "ancient_miglania_swamp",
+    "info": {
+        "name" : "식인 늪",
+        "reward": ["명"],
+        "hard": {
+            "level": 33,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 64,
+            "count": "24 / 60 / 120"
+        },
+        "dream": true
+    },
+    "preview": null,
+    "map": [{
+        "normal": "종유동굴 입구"
+    }, {
+        "normal": "강자의 길",
+        "rare": "정복자의 길"
+    }, {
+        "normal": "혼돈의 옛터",
+        "rare": "영광의 옛터"
+    }],
+    "character": {
+        "statusup": ["사이러스"],
+        "multiple": null,
+        "book": [{"name": "사이러스", "kor": "브레이브 스톰"},
+                 {"name": "투바", "kor": "지오맨서"},
+                 {"name": "유나", "kor": "무녀"},
+                 {"name": "나기", "kor": "팔지 사신"},
+                 {"name": "베이나", "kor": "아우라"},
+                 {"name": "티라미수", "kor": "드래곤 룰러"},
+                 {"name": "미스트레아", "kor": "이사야"},
+                 {"name": "미르샤", "kor": "에페파네노스"},
+                 {"name": "가람배럴", "kor": "흐룽그니르"},
+                 {"name": "히나기쿠", "kor": "염라"}]
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["땅"],
+        "resist": ["물"],
+        "appear": ["종유동굴 입구", "강자의 길", "혼돈의 옛터"]
+    },{
+        "id":2,
+        "weak": ["물"],
+        "resist": ["불"],
+        "appear": ["종유동굴 입구", "강자의 길", "혼돈의 옛터"]
+    },{
+        "id":3,
+        "weak": ["불"],
+        "resist": ["바람"],
+        "appear": ["종유동굴 입구", "강자의 길", "혼돈의 옛터"]
+    },{
+        "id": 4,
+        "appear": ["종유동굴 입구", "강자의 길", "혼돈의 옛터"]
+    },{
+        "id":5,
+        "weak": ["땅"],
+        "resist": ["물"],
+        "appear": ["종유동굴 입구", "강자의 길", "혼돈의 옛터"]
+    },{
+        "id":6,
+        "weak": ["땅"],
+        "resist": ["물"],
+        "fear": true,
+        "appear": ["종유동굴 입구", "강자의 길"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["땅"],
+        "resist": ["불", "물"],
+        "description": ["내성 정보는 Very Hard 기준"] 
+    }]
+}

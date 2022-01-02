@@ -10,17 +10,17 @@
 - 맵 Download 기능   
 
 #### 2. 직업서 검색
-- 캐릭터, 책 이름으로 직업서 드랍 장소 검색   
+- 캐릭터, 책 이름으로 직업서 드랍 장소를 검색 가능합니다.   
 - 해당되는 던전으로 바로 이동 가능
 
 #### 3. 퍼스널리티 검색
-- 선택한 퍼스널리티에 해당하는 캐릭터를 조회
+- 선택한 퍼스널리티에 해당하는 캐릭터를 조회할 수 있습니다.
 
 ### Issue
 iOS 일부 기기에서 다운로드 버튼이 동작하지 않을 수 있음   
 
 ### Tech
-FE : React   
+FE : React (Javascript)   
 BE : None (JSON 데이터 수작업)
 
 ### React Library
@@ -29,7 +29,8 @@ dom-to-image
 react-linkify  
 react-ga   
 react-redux + redux   
-react-router-dom   
+react-router-dom    
+sweetalert2
 
 ### Deploy
 gh-pages

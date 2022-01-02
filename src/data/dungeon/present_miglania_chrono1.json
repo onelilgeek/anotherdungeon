@@ -1,0 +1,77 @@
+{
+    "code": "present_miglania_chrono1",
+    "info": {
+        "name" : "이몽 - 시간의 탑",
+        "reward": ["천", "명"],
+        "hard": {
+            "level": 50,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 70,
+            "count": "24 / 60 / 120"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["크로노 크로스 콜라보 포인트 수집이 가능합니다."]
+    },{
+        "id": 2,
+        "description": ["이절, 전록은 나오지만 몽영은 안 나옵니다."]
+    }],
+    "map": [{
+        "normal": "이몽으로의 부름"
+    }, {
+        "normal": "잊힌 꿈",
+        "rare": "잊힌 꿈 - 운명의 선잠"
+    }, {
+        "normal": "키드 루트"
+    }, {
+        "normal": "세르주 루트"
+    }, {
+        "normal": "츠쿠요미 루트"
+    }],
+    "character": {
+        "statusup": ["키드", "세르주", "츠쿠요미"],
+        "multiple": null,
+        "book": null
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["결정"],
+        "appear": ["이몽으로의 부름"]
+    },{
+        "id":2,
+        "weak": ["불"],
+        "appear": ["이몽으로의 부름"]
+    },{
+        "id":3,
+        "weak": ["땅"],
+        "appear": ["이몽으로의 부름"]
+    },{
+        "id":4,
+        "weak": ["결정"],
+        "resist": ["그림자", "번개"],
+        "fear": true,
+        "appear": ["이몽으로의 부름"]
+    }],        
+    "boss": [{
+        "id":1,
+        "part": [{
+            "id": 1,
+            "name": "손",
+            "resist": ["불", "물", "바람", "땅", "그림자", "결정", "번개"]
+        }],
+        "description": ["세르주 루트"]
+    },{
+        "id":2,
+        "weak": ["불"],
+        "resist": ["그림자"],
+        "description": ["키드 루트"]
+    },{
+        "id":3,
+        "weak": ["결정"],
+        "resist": ["불", "물", "바람", "땅", "그림자", "번개"],
+        "description": ["츠쿠요미 루트"]
+    }]
+}

@@ -1,0 +1,83 @@
+{
+    "code": "present_miglania_labyrinth",
+    "info": {
+        "name" : "미글랜스 지하미궁",
+        "reward": ["천", "명"],
+        "hard": {
+            "level": 33,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 40,
+            "count": "24 / 60 / 120"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["이절과 몽영이 안 나옵니다."]
+    },{
+        "id": 2,
+        "description": ["마검외전 포인트 수집이 가능합니다."]
+    },{
+        "id": 3,
+        "description": ["피어는 2스테이지 레어 맵에서만 나옵니다."]
+    }],
+    "map": [{
+        "normal": "탈출구"
+    }, {
+        "normal": "지하도",
+        "rare": "갱도"
+    }, {
+        "normal": "유폐의 길",
+        "rare": "금지된 길"
+    }],
+    "character": {
+        "statusup": ["디아드라"],
+        "multiple":  [{
+            "name": "아나벨",
+            "rate": "x2" 
+        }, {
+            "name": "디아드라",
+            "rate": "x1.5" 
+        },{
+            "name": "미유",
+            "rate": "x1.2" 
+        },{
+            "name": "네로",
+            "rate": "x1.2" 
+        },{
+            "name": "소이라",
+            "rate": "x1.2"
+        }],
+        "book": null
+    },
+    "monster": [{
+        "id":1,
+        "appear": ["탈출구", "지하도", "유폐의 길"]
+    },{
+        "id":2,
+        "appear": ["탈출구", "지하도", "유폐의 길"]
+    },{
+        "id":3,
+        "weak": ["베기", "불"],
+        "resist": ["바람"],
+        "appear": ["탈출구", "지하도", "유폐의 길"]
+    },{
+        "id":4,
+        "weak": ["땅"],
+        "resist": ["물"],
+        "appear": ["탈출구", "지하도", "유폐의 길"]
+    },{
+        "id":5,
+        "weak": ["땅"],
+        "resist": ["불","물"],
+        "fear": true,
+        "appear": ["지하도"]
+    }],        
+    "boss": [{
+        "id":1,
+        "weak": ["땅"],
+        "resist": ["불"],
+        "description": ["특이사항 없음"]
+    }]
+}

@@ -1,0 +1,71 @@
+{
+    "code": "future_miglania_ship",
+    "info": {
+        "name" : "차원전함",
+        "reward": ["천"],
+        "hard": {
+            "level": 52,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 70,
+            "count": "24 / 60 / 120"
+        },
+        "dream": true
+    },
+    "preview": null,
+    "map": [{
+        "normal": "진입구"
+    }, {
+        "normal": "선수 입구",
+        "rare": "측방 감시층"
+    }, {
+        "normal": "방어 구역",
+        "rare": "격납 구역"
+    }],
+    "character": {
+        "statusup": ["헬레나"],
+        "multiple": null,
+        "book": [{"name": "이프", "kor": "브링로트"},
+            {"name": "마리엘", "kor": "하이어로팬트"},
+            {"name": "유인", "kor": "네고시에이터"},
+            {"name": "셰이네", "kor": "아크 나이트"},
+            {"name": "섀넌", "kor": "화이트 나이트"},
+            {"name": "이루루", "kor": "그림 리퍼"},
+            {"name": "헬레나", "kor": "제노레기온"},
+            {"name": "하디", "kor": "그레이 하운드"}]
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["찌르기", "바람"],
+        "resist": ["땅"],
+        "appear": ["진입구", "선수 입구", "방어 구역"]
+    },{
+        "id":2,
+        "appear": ["진입구", "선수 입구", "방어 구역"]
+    },{
+        "id":3,
+        "appear": ["진입구", "선수 입구", "방어 구역"]
+    },{
+        "id":4,
+        "weak": ["타격"],
+        "appear": ["진입구", "선수 입구", "방어 구역"]
+    },{
+        "id":5,
+        "fear": true,
+        "appear": ["진입구", "선수 입구"]
+    },{
+        "id":6,
+        "weak": ["찌르기", "바람"],
+        "resist": ["땅"],
+        "rarefear": true,
+        "appear": ["선수 입구"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["땅"],
+        "resist": ["불", "물"],
+        "description": ["내성 정보는 Very Hard 기준"] 
+    }]
+}

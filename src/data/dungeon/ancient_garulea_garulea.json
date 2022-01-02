@@ -1,0 +1,235 @@
+{
+    "code": "ancient_garulea_garulea",
+    "info": {
+        "name" : "고대 가를레아 대륙",
+        "reward": ["천", "명"],
+        "hard": {
+            "level": 80,
+            "count": "24 / 60 / 120 / 240 / 360"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["각종 글래스터를 얻을 수 있습니다."]
+    },{
+        "id": 2,
+        "description": ["초반에는 반짝이를 상자보다 우선하세요."]
+    },{
+        "id": 3,
+        "description": ["토우의 비경은 꼭 들어가도록 합시다."]
+    }],
+    "map": [{
+        "normal": "쿠루치 해안",
+        "important": false,
+        "description": ["공격조각 드롭"],
+        "sign": true
+    }, {
+        "normal": "호키시의 숲",
+        "important": false,
+        "description": ["지원조각 드롭"],
+        "sign": true
+    }, {
+        "normal": "다르가나 산길",
+        "important": false,
+        "description": ["생명조각 드롭"],
+        "sign": true
+    }, {
+        "normal": "토우의 비경",
+        "important": true,
+        "description": ["세련된 토우 획득"],
+        "sign": true
+    }, {
+        "normal": "뱃묘지",
+        "important": false,
+        "description": ["공격조각 드롭"],
+        "sign": true
+    }, {
+        "normal": "용신 연못",
+        "important": false,
+        "description": ["지원조각 드롭"],
+        "sign": true
+    }, {
+        "normal": "지우굴",
+        "important": false,
+        "description": ["생명조각 드롭"],
+        "sign": true
+    }, {
+        "normal": "자미",
+        "important": false,
+        "description": ["글래스터 교환"],
+        "sign": true
+    }],
+    "character": {
+        "statusup": ["가리유"],
+        "multiple": null,
+        "book": null
+    },
+    "monster": [{
+        "id": 1,
+        "weak": ["불", "베기"],
+        "resist": ["바람"],
+        "appear": ["호키시의 숲"]
+    },{
+        "id": 2,
+        "weak": ["바람"],
+        "appear": ["호키시의 숲"]
+    },{
+        "id": 3,
+        "weak": ["불", "찌르기"],
+        "resist": ["바람"],
+        "appear": ["호키시의 숲"]
+    },{
+        "id": 4,
+        "fear": true,
+        "weak": ["불", "베기"],
+        "resist": ["바람"],
+        "appear": ["호키시의 숲"]
+    },{
+        "id": 5,
+        "weak": ["바람", "물"],
+        "resist": ["불", "베기"],
+        "appear": ["쿠루치 해안"]
+    },{
+        "id": 6,
+        "weak": ["땅", "타격"],
+        "resist": ["물", "찌르기"],
+        "appear": ["쿠루치 해안"]
+    },{
+        "id": 7,
+        "weak": ["땅"],
+        "appear": ["쿠루치 해안"]
+    },{
+        "id": 8,
+        "fear": true,
+        "weak": ["바람", "물"],
+        "resist": ["불", "베기"],
+        "appear": ["쿠루치 해안"]
+    },{
+        "id": 9,
+        "weak": ["바람", "타격"],
+        "resist": ["땅", "베기"],
+        "appear": ["다르가나 산길"]
+    },{
+        "id": 10,
+        "weak": ["베기", "찌르기"],
+        "resist": ["타격"],
+        "appear": ["다르가나 산길"]
+    },{
+        "id": 11,
+        "weak": ["불"],
+        "resist": ["찌르기"],
+        "appear": ["다르가나 산길"]
+    },{
+        "id": 12,
+        "fear": true,
+        "weak": ["베기", "찌르기"],
+        "resist": ["타격"],
+        "appear": ["다르가나 산길"]
+    },{
+        "id": 13,
+        "weak": ["땅", "베기"],
+        "resist": ["물"],
+        "appear": ["용신 연못"]
+    },{
+        "id": 14,
+        "weak": ["불", "베기"],
+        "resist": ["바람"],
+        "appear": ["용신 연못"]
+    },{
+        "id": 15,
+        "weak": ["마법"],
+        "resist": ["타격", "찌르기"],
+        "appear": ["용신 연못"]
+    },{
+        "id": 16,
+        "fear": true,
+        "weak": ["불", "베기"],
+        "resist": ["바람"],
+        "appear": ["용신 연못"]
+    },{
+        "id": 17,
+        "weak": ["땅"],
+        "resist": ["물", "타격"],
+        "appear": ["뱃묘지"]
+    },{
+        "id": 18,
+        "weak": ["땅", "베기"],
+        "resist": ["물(흡수)"],
+        "appear": ["뱃묘지"]
+    },{
+        "id": 19,
+        "weak": ["땅", "찌르기"],
+        "resist": ["물(흡수)"],
+        "appear": ["뱃묘지"]
+    },{
+        "id": 20,
+        "weak": ["땅", "타격"],
+        "resist": ["물(무효)"],
+        "appear": ["뱃묘지"]
+    },{
+        "id": 21,
+        "fear": true,
+        "weak": ["땅", "타격"],
+        "resist": ["물(무효)"],
+        "appear": ["뱃묘지"]
+    },{
+        "id": 22,
+        "weak": ["바람", "타격"],
+        "resist": ["찌르기"],
+        "appear": ["지우굴"]
+    },{
+        "id": 23,
+        "weak": ["바람", "타격"],
+        "resist": ["불", "베기"],
+        "appear": ["지우굴"]
+    },{
+        "id": 24,
+        "weak": ["마법"],
+        "resist": ["찌르기(무효)", "베기(무효)", "타격(무효)"],
+        "appear": ["지우굴"]
+    },{
+        "id": 25,
+        "fear": true,
+        "weak": ["바람", "타격"],
+        "resist": ["불", "베기"],
+        "appear": ["지우굴"]
+    }],    
+        
+    "boss": [{
+        "id":1,
+        "weak": ["땅"],
+        "resist": ["물"],
+        "description": ["캐릭터를 삼킨 상태에서는", "타격 약점, 나머지 내성"]
+    },{
+        "id":2,
+        "weak": ["타격", "바람"],
+        "resist": ["베기", "찌르기", "땅"],
+        "part": [{
+            "id": 1,
+            "name": "코어",
+            "weak": ["마법", "바람"],
+            "resist": ["찌르기", "타격", "불"]
+        }],
+        "description": ["보상도 별로, 잡기도 귀찮음. 비추천"]
+    },{
+        "id":3,
+        "weak": ["불", "물", "바람", "땅"],
+        "description": ["2턴마다 존 전개하며 약점이 바뀜", "머리 파괴시 본체에", "그 시점의 머리와 같은 약점이 생김"]
+    }],
+    "tokens": [{
+        "id": 1,
+        "description": ["20개 모아 방어구로 교환"]
+    },{
+        "id": 2,
+        "description": ["20개 모아 방어구로 교환"]
+    },{
+        "id": 3,
+        "description": ["20개 모아 방어구로 교환"]
+    },{
+        "id": 4,
+        "description": ["1. 셀프 힐링 글래스터", "2. XX의 기원 글래스터", "이후 경옥으로 교환(공격-생명-지원)"]
+    },{
+        "id": 5,
+        "description": ["1. 공격의 경옥", "2. 필요한 독/페인 글래스터", "3. 알아서(남은 상급 글래스터)"]
+    }]
+}

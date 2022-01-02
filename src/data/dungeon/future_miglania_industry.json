@@ -1,0 +1,61 @@
+{
+    "code": "future_miglania_industry",
+    "info": {
+        "name" : "공업도시 폐허",
+        "reward": ["천"],
+        "hard": {
+            "level": 24,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 60,
+            "count": "24 / 60 / 120"
+        },
+        "dream": true
+    },
+    "preview": null,
+    "map": [{
+        "normal": "A구역"
+    }, {
+        "normal": "노내",
+        "rare": "노내 경계구역"
+    }, {
+        "normal": "B구역",
+        "rare": "R구역"
+    }],
+    "character": {
+        "statusup": ["에이미"],
+        "multiple": null,
+        "book": [{"name": "마이티", "kor": "아쿠아 룰러"},
+                {"name": "셀리느", "kor": "엠프리스"},
+                {"name": "클로드", "kor": "페일너트"},
+                {"name": "비아카", "kor": "코만듀어"},
+                {"name": "히스메나", "kor": "브류나크"},
+                {"name": "멜리사", "kor": "슬레이어"},
+                {"name": "멜로디", "kor": "리벳"}]
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["찌르기", "바람"],
+        "resist": ["땅"],
+        "appear": ["A구역", "노내", "B구역"]
+    },{
+        "id":2,
+        "appear": ["A구역", "노내", "B구역"]
+    },{
+        "id":3,
+        "weak": ["타격"],
+        "appear": ["A구역", "노내", "B구역"]
+    },{
+        "id":4,
+        "fear": true,
+        "appear": ["A구역", "노내"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["바람"],
+        "resist": ["땅", "물"],
+        "description": ["내성 정보는 Very Hard 기준"] 
+    }]
+}

@@ -1,0 +1,50 @@
+{
+    "code": "ancient_miglania_time",
+    "info": {
+        "name" : "시간의 탑",
+        "reward": ["명"],
+        "hard": {
+            "level": 36,
+            "count": "0 / 24 / 96"
+        }
+    },
+    "preview": null,
+    "map": [{
+        "normal": "기원의 회랑"
+    }, {
+        "normal": "오전의 방",
+        "rare": "정오의 방"
+    }, {
+        "normal": "오후의 방",
+        "rare": "영겁의 방"
+    }],
+    "character": {
+        "statusup": null,
+        "multiple": null,
+        "book": null
+    },
+    "monster": [{
+        "id":1,
+        "appear": ["기원의 회랑", "오전의 방", "오후의 방"]
+    },{
+        "id":2,
+        "appear": ["기원의 회랑", "오전의 방", "오후의 방"]
+    },{
+        "id":3,
+        "appear": ["기원의 회랑", "오전의 방", "오후의 방"]
+    },{
+        "id": 4,
+        "fear": true,
+        "appear": ["기원의 회랑", "오전의 방"]
+    },{
+        "id": 5,
+        "rarefear": true,
+        "appear": ["오전의 방"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["바람", "땅", "불", "물"],
+        "description": ["순서대로 약점이 바뀜", "(첫 턴에 풍속 약점, 2번째 턴에 지속 약점...)"] 
+    }]
+}

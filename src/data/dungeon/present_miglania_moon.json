@@ -1,0 +1,59 @@
+{
+    "code": "present_miglania_moon",
+    "info": {
+        "name" : "달그림자 숲",
+        "reward": ["명"],
+        "hard": {
+            "level": 21,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 58,
+            "count": "24 / 60 / 120"
+        },
+        "dream": true
+    },
+    "preview": null,
+    "map": [{
+        "normal": "달그림자 숲 입구"
+    }, {
+        "normal": "짐승 길",
+        "rare": "가시밭 길"
+    }, {
+        "normal": "산책로",
+        "rare": "신비한 길"
+    }],
+    "character": {
+        "statusup": null,
+        "multiple": null,
+        "book":[{"name": "로키드", "kor": "티탄"},
+            {"name": "아자미", "kor": "아마테라스"},
+            {"name": "츠바메", "kor": "섀도 로드"},
+            {"name": "뮬루스", "kor": "라팽"},
+            {"name": "츠키하", "kor": "무라사메"},
+            {"name": "유키노", "kor": "우츠타히메"},
+            {"name": "네코코", "kor": "금화묘"}]
+    },
+    "monster": [{
+        "id":1,
+        "appear": ["달그림자 숲 입구", "짐승 길", "산책로"]
+    },{
+        "id":2,
+        "weak": ["베기","불"],
+        "resist": ["바람"],
+        "appear": ["달그림자 숲 입구", "짐승 길", "산책로"]
+    },{
+        "id":3,
+        "appear": ["달그림자 숲 입구", "짐승 길", "산책로"]
+    },{
+        "id":4,
+        "fear": true,
+        "appear": ["달그림자 숲 입구", "짐승 길"]
+    }],        
+    "boss": [{
+        "id":1,
+        "weak": ["불"],
+        "resist": ["바람", "땅"],
+        "description": ["내성 정보는 Very Hard 기준"]
+    }]
+}

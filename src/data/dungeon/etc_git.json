@@ -1,0 +1,41 @@
+{
+    "code": "etc_git",
+    "info": {
+        "name" : "봉역 덧없는 시각의 틈새",
+        "reward": ["천","명"],
+        "veryhard": {
+            "level": 75,
+            "count": "24 / 60 / 120"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["많은 Git을 획득 가능합니다."]
+    }],
+    "map": [{
+        "normal": "덧없는 시각의 틈새"
+    }],
+    "character": {
+        "statusup": null,
+        "multiple": null,
+        "book": null
+    },
+    "monster": [{
+        "id":1,
+        "appear": ["덧없는 시각의 틈새"]
+    },{
+        "id":2,
+        "appear": ["덧없는 시각의 틈새"]
+    },{
+        "id":3,
+        "appear": ["덧없는 시각의 틈새"]
+    },{
+        "id": 4,
+        "fear": true,
+        "appear": ["덧없는 시각의 틈새"]
+    }],        
+    "boss": [{
+        "id":1,
+        "description": ["특이사항 없음"] 
+    }]
+}

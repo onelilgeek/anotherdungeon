@@ -1,0 +1,90 @@
+{
+    "code": "present_miglania_weird",
+    "info": {
+        "name" : "기묘한 숲",
+        "reward": ["천"],
+        "veryhard": {
+            "level": 65,
+            "count": "24 / 60 / 120"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["이절은 안 나오지만, 몽영은 나옵니다."]
+    },{
+        "id": 2,
+        "description": ["시편을 모아 미유 클래스 체인지가 가능합니다.", "성능은 별로입니다."]
+    },{
+        "id": 3,
+        "description": ["미유 전용무기를 강화할 수 있습니다.", "역시 성능은 별로입니다."]
+    }],
+    "map": [{
+        "normal": "입구"
+    }, {
+        "normal": "미로",
+        "rare": "샛길"
+    }, {
+        "normal": "술렁이는 밀림",
+        "rare": "인도하는 밀림"
+    }],
+    "character": {
+        "statusup": null,
+        "multiple": null,
+        "book": [{"name": "미유", "kor": "프린세스"}]
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["물"],
+        "resist": ["타격", "바람"],
+        "appear": ["술렁이는 밀림"]
+    },{
+        "id":2,
+        "weak": ["바람"],
+        "resist": ["타격", "물"],
+        "appear": ["입구", "미로", "술렁이는 밀림"]
+    },{
+        "id":3,
+        "weak": ["땅"],
+        "resist": ["타격", "불"],
+        "appear": ["술렁이는 밀림"]
+    },{
+        "id":4,
+        "weak": ["불"],
+        "resist": ["타격", "땅"],
+        "appear": ["입구", "미로", "술렁이는 밀림"]
+    },{
+        "id":5,
+        "weak": ["불"],
+        "resist": ["바람"],
+        "appear": ["술렁이는 밀림"]
+    },{
+        "id":6,
+        "resist": ["땅(무효)"],
+        "appear": ["입구", "미로"]
+    },{
+        "id":7,
+        "weak": ["불"],
+        "resist": ["타격", "땅"],
+        "rare": true,
+        "appear": ["입구", "미로", "술렁이는 밀림"]
+    },{
+        "id":8,
+        "weak": ["불"],
+        "resist": ["타격", "땅"],
+        "fear": true,
+        "appear": ["입구", "미로"]
+    },{
+        "id":9,
+        "weak": ["땅"],
+        "resist": ["타격", "불"],
+        "rarefear": true,
+        "appear": ["미로"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["베기"],
+        "resist": ["마법(흡수)"]  ,
+        "description": ["상태이상 맞으면 귀찮아지니 빠르게 삭제"] 
+    }]
+}

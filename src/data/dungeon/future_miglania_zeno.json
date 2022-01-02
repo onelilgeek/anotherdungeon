@@ -1,0 +1,65 @@
+{
+    "code": "future_miglania_zeno",
+    "info": {
+        "name" : "제노 도메인",
+        "reward": ["천"],
+        "hard": {
+            "level": 44,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 68,
+            "count": "24 / 60 / 120"
+        },
+        "dream": true
+    },
+    "preview": null,
+    "map": [{
+        "normal": "엔트런스"
+    }, {
+        "normal": "공업 섹터",
+        "rare": "가공 섹터"
+    }, {
+        "normal": "연구 구역",
+        "rare": "기밀 연구 구역"
+    }],
+    "character": {
+        "statusup": ["리이카"],
+        "multiple": null,
+        "book": [{"name": "수제트", "kor": "드라고나"},
+            {"name": "이스카", "kor": "애드미럴"},
+            {"name": "세티", "kor": "에이전트"},
+            {"name": "렌리", "kor": "인스펙터"},
+            {"name": "리이카", "kor": "그라티넬"},
+            {"name": "프레메아", "kor": "듀얼 페르소나"}]
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["찌르기"],
+        "appear": ["엔트런스", "공업 섹터", "연구 구역"]
+    },{
+        "id":2,
+        "appear": ["엔트런스", "공업 섹터", "연구 구역"]
+    },{
+        "id":3,
+        "weak": ["물", "바람"],
+        "resist": ["베기","타격","불", "땅"],
+        "appear": ["엔트런스", "공업 섹터", "연구 구역"]
+    },{
+        "id":4,
+        "fear": true,
+        "appear": ["엔트런스", "공업 섹터"]
+    },{
+        "id":5,
+        "weak": ["찌르기"],
+        "rarefear": true,
+        "appear": ["공업 섹터"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["불"],
+        "resist": ["바람", "땅"],
+        "description": ["내성 정보는 Very Hard 기준"] 
+    }]
+}

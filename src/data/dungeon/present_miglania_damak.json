@@ -1,0 +1,65 @@
+{
+    "code": "present_miglania_damak",
+    "info": {
+        "name" : "뱀의 간 다마크",
+        "reward": ["명"],
+        "hard": {
+            "level": 66,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 72,
+            "count": "24 / 60 / 120"
+        },
+        "dream": true
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["항마무기를 강화할 수 있습니다."]
+    }],
+    "map": [{
+        "normal": "허리띠"
+    }, {
+        "normal": "작은 그물막",
+        "rare": "유문"
+    }, {
+        "normal": "복강부",
+        "rare": "분문"
+    }],
+    "character": {
+        "statusup": ["길드너"],
+        "multiple": null,
+        "book":[{"name": "알도", "kor": "드래곤 베어러"},
+            {"name": "엘가", "kor": "저거너트"},
+            {"name": "듀나리스", "kor": "소울 브링거"},
+            {"name": "밍화", "kor": "진"},
+            {"name": "제빌로", "kor": "데몬 리퍼"}]
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["불"],
+        "resist": ["타격"],
+        "appear": ["허리띠", "작은 그물막", "복강부"]
+    },{
+        "id":2,
+        "weak": ["불"],
+        "resist": ["바람"],
+        "appear": ["허리띠", "작은 그물막", "복강부"]
+    },{
+        "id":3,
+        "weak": ["찌르기"],
+        "appear": ["허리띠", "작은 그물막", "복강부"]
+    },{
+        "id":4,
+        "appear": ["허리띠", "작은 그물막", "복강부"]
+    },{
+        "id":5,
+        "fear": true,
+        "appear": ["허리띠", "작은 그물막"]
+    }],        
+    "boss": [{
+        "id":1,
+        "resist": ["바람"],
+        "description": ["그라운드 브레이크 4번 맞으면", "남은 체력에 관계없이 전멸"]
+    }]
+}

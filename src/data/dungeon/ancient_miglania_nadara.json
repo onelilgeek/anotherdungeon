@@ -1,0 +1,68 @@
+{
+    "code": "ancient_miglania_nadara",
+    "info": {
+        "name" : "나다라 화산",
+        "reward": ["천"],
+        "hard": {
+            "level": 28,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 62,
+            "count": "24 / 60 / 120"
+        },
+        "dream": true
+    },
+    "preview": null,
+    "map": [{
+        "normal": "동굴 입구"
+    }, {
+        "normal": "강적의 근거지",
+        "rare": "희귀종의 근거지"
+    }, {
+        "normal": "보물회랑",
+        "rare": "비보회랑"
+    }],
+    "character": {
+        "statusup": null,
+        "multiple": null,
+        "book": [{"name": "라클레어", "kor": "민스트럴"},
+                {"name": "가리유", "kor": "플레임 로드"},
+                {"name": "메리나", "kor": "말아흐"},
+                {"name": "라디카", "kor": "디비네이터"},
+                {"name": "로제타", "kor": "저지먼트"},
+                {"name": "러블리", "kor": "러블리 셰프"},
+                {"name": "틸릴", "kor": "어비스 데보티"},
+                {"name": "이벨라", "kor": "라줄리 메데이아"},
+                {"name": "피치카", "kor": "시레나리아"}]
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["물"],
+        "resist": ["찌르기","불"],
+        "appear": ["동굴 입구", "강적의 근거지", "보물회랑"]
+    },{
+        "id":2,
+        "weak": ["물"],
+        "resist": ["불"],
+        "appear": ["동굴 입구", "강적의 근거지", "보물회랑"]
+    },{
+        "id":3,
+        "weak": ["물"],
+        "resist": ["불"],
+        "appear": ["동굴 입구", "강적의 근거지", "보물회랑"]
+    },{
+        "id": 4,
+        "weak": ["물"],
+        "resist": ["불"],
+        "fear": true,
+        "appear": ["동굴 입구", "강적의 근거지"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["물"],
+        "resist": ["불(흡수)", "바람"],
+        "description": ["내성 정보는 Very Hard 기준"] 
+    }]
+}

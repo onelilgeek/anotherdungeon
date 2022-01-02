@@ -1,0 +1,163 @@
+{
+    "code": "future_garulea_garulea",
+    "info": {
+        "name" : "미래 가를레아 대륙",
+        "reward": ["천", "명"],
+        "hard": {
+            "level": 80,
+            "count": "24 / 60 / 120 / 240 / 360"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["각종 글래스터 연성 재료를 얻을 수 있습니다."]
+    },{
+        "id": 2,
+        "description": ["피어는 꼭 잡으세요(변질광석을 줍니다)"]
+    },{
+        "id": 3,
+        "description": ["비가 오면 고양이 신사가 나타납니다"]
+    }],
+    "map": [{
+        "normal": "불모의 땅",
+        "important": false,
+        "description": ["반짝이 줍기"]
+    }, {
+        "normal": "불모의 땅(비)",
+        "important": true,
+        "description": ["비 올 때는 고양이 신사로 가는 길이 나타남"]
+    }, {
+        "normal": "오염갱",
+        "important": false,
+        "description": ["처음은 여기만 열려 있음"]
+    }, {
+        "normal": "감옥선 가르파겐",
+        "important": false,
+        "description": ["이지아 개방 후 해금 가능"]
+    }, {
+        "normal": "KMS 동방지부",
+        "important": false,
+        "description": ["이지아 개방 후 해금 가능"]
+    }, {
+        "normal": "새틀라이트 스타디움",
+        "important": false,
+        "description": ["입장시 티켓 필요", "높은 확률로 보스방에서 경옥"]
+    }],
+    "character": {
+        "statusup": ["셀리느"],
+        "multiple": null,
+        "book": null
+    },
+    "monster": [{
+        "id": 1,
+        "weak": ["불", "베기"],
+        "appear": ["불모의 땅"]
+    },{
+        "id": 2,
+        "weak": ["물", "찌르기"],
+        "resist": ["불"],
+        "appear": ["불모의 땅"]
+    },{
+        "id": 3,
+        "weak": ["물", "타격"],
+        "resist": ["땅"],
+        "appear": ["불모의 땅"]
+    },{
+        "id": 4,
+        "weak": ["불", "타격"],
+        "appear": ["오염갱"]
+    },{
+        "id": 5,
+        "weak": ["불", "찌르기"],
+        "appear": ["오염갱"]
+    },{
+        "id": 6,
+        "weak": ["물", "바람"],
+        "resist": ["베기", "불"],
+        "appear": ["오염갱"]
+    },{
+        "id": 7,
+        "weak": ["불", "베기"],
+        "resist": ["찌르기", "물"],
+        "appear": ["감옥선 가르파겐"]
+    },{
+        "id": 8,
+        "weak": ["물"],
+        "appear": ["감옥선 가르파겐"]
+    },{
+        "id": 9,
+        "weak": ["물", "찌르기"],
+        "appear": ["감옥선 가르파겐"]
+    },{
+        "id": 10,
+        "weak": ["베기", "불", "번개"],
+        "resist": ["바람"],
+        "appear": ["KMS 동방지부", "새틀라이트 스타디움"]
+    },{
+        "id": 11,
+        "weak": ["타격", "바람", "그림자"],
+        "resist": ["물"],
+        "appear": ["KMS 동방지부", "새틀라이트 스타디움"]
+    },{
+        "id": 12,
+        "weak": ["찌르기", "바람", "결정"],
+        "resist": ["물"],
+        "appear": ["KMS 동방지부", "새틀라이트 스타디움"]
+    },{
+        "id": 13,
+        "weak": ["불", "번개", "마법"],
+        "resist": ["땅"],
+        "appear": ["KMS 동방지부", "새틀라이트 스타디움"]
+    },{
+        "id": 14,
+        "fear": true,
+        "weak": ["불", "번개", "마법"],
+        "resist": ["땅"],
+        "appear": ["KMS 동방지부"]
+    },{
+        "id": 15,
+        "fear": true,
+        "weak": ["물", "타격"],
+        "resist": ["땅"],
+        "appear": ["불모의 땅"]
+    },{
+        "id": 16,
+        "fear": true,
+        "weak": ["불", "찌르기"],
+        "appear": ["오염갱"]
+    },{
+        "id": 17,
+        "fear": true,
+        "weak": ["물"],
+        "appear": ["감옥선 가르파겐"]
+    },{
+        "id": 18,
+        "fear": true,
+        "weak": ["결정", "마법"],
+        "resist": ["물"],
+        "appear": ["새틀라이트 스타디움"]
+    }],    
+        
+    "boss": [{
+        "id":1,
+        "description": ["잡몹 있을 시 본체 공격 무효화"]
+    },{
+        "id":2,
+        "weak": ["물"],
+        "description": ["2체 모두 잡아야 함"]
+    },{
+        "id":3,
+        "description": ["상자에서 공격경옥을 주므로", "가장 많이 잡게 될 보스"]
+    },{
+        "id":4,
+        "description": ["50% 이하에서 베기 약점", "강한 공격과 혼란 상태이상 주의"]
+    }],
+    "tokens": [{
+        "id": 1,
+        "description": ["1. 가르파겐 & KMS동방지부 해금", "2. 무기 교환(키 아이템 + 광석 40개", 
+            "3-1. 사테라 스타디움 티켓(1장 = 광석 30개)", "3-2. 필요한 경옥 / 연성재료"]
+    },{
+        "id": 2,
+        "description": ["1. 방어구 교환", "2. 필요한 경옥 / 연성재료"]
+    }]
+}

@@ -1,0 +1,86 @@
+{
+    "code": "present_miglania_dogma",
+    "info": {
+        "name" : "도그마의 탑",
+        "reward": ["천", "명"],
+        "hard": {
+            "level": 60,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 65,
+            "count": "24 / 60 / 120"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["이절과 몽영이 안 나옵니다."]
+    },{
+        "id": 2,
+        "description": ["마녀외전 포인트 수집이 가능합니다."]
+    },{
+        "id": 3,
+        "description": ["피어는 2스테이지 레어 맵에서만 나옵니다.", "피어는 폼이 바뀌면 물리 내성이 됩니다."]
+    }],
+    "map": [{
+        "normal": "지하 입구"
+    }, {
+        "normal": "어두컴컴한 복도",
+        "rare": "침침한 복도"
+    }, {
+        "normal": "고요한 방",
+        "rare": "아득한 방"
+    }],
+    "character": {
+        "statusup": ["노포우족"],
+        "multiple":  [{
+            "name": "이루루",
+            "rate": "x1.5" 
+        }, {
+            "name": "라디카",
+            "rate": "x1.5" 
+        },{
+            "name": "노포우족",
+            "rate": "x1.5" 
+        },{
+            "name": "투바",
+            "rate": "x1.2" 
+        },{
+            "name": "브리노",
+            "rate": "x1.2"
+        },{
+            "name": "베네디트",
+            "rate": "x1.2"
+        },{
+            "name": "사이러스",
+            "rate": "x1.2"
+        },{
+            "name": "파리사",
+            "rate": "x1.2"
+        }],
+        "book": null
+    },
+    "monster": [{
+        "id":1,
+        "appear": ["지하 입구", "어두컴컴한 복도", "고요한 방"]
+    },{
+        "id":2,
+        "weak": ["불"],
+        "resist": ["타격"],
+        "appear": ["지하 입구", "어두컴컴한 복도", "고요한 방"]
+    },{
+        "id":3,
+        "appear": ["지하 입구", "어두컴컴한 복도", "고요한 방"]
+    },{
+        "id":4,
+        "weak": ["베기", "타격", "찌르기"],
+        "fear": true,
+        "appear": ["어두컴컴한 복도"]
+    }],        
+    "boss": [{
+        "id":1,
+        "weak": ["불"],
+        "resist": ["타격"],
+        "description": ["물리공격시 요격 주의"]
+    }]
+}

@@ -1,0 +1,48 @@
+{
+    "code": "ancient_miglania_star",
+    "info": {
+        "name" : "별의 탑",
+        "reward": ["명"],
+        "hard": {
+            "level": 55,
+            "count": "0 / 24 / 96"
+        }
+    },
+    "preview": null,
+    "map": [{
+        "normal": "초기층"
+    }, {
+        "normal": "생명층",
+        "rare": "미지 생명층"
+    }, {
+        "normal": "연구층",
+        "rare": "고도 연구층"
+    }],
+    "character": {
+        "statusup": null,
+        "multiple": null,
+        "book": null
+    },
+    "monster": [{
+        "id":1,
+        "appear": ["초기층", "생명층", "연구층"]
+    },{
+        "id":2,
+        "appear": ["초기층", "생명층", "연구층"]
+    },{
+        "id":3,
+        "weak": ["찌르기"],
+        "appear": ["초기층", "생명층", "연구층"]
+    },{
+        "id": 4,
+        "fear": true,
+        "appear": ["초기층", "생명층"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["바람"],
+        "resist": ["땅"],
+        "description": ["특이사항 없음"] 
+    }]
+}

@@ -1,0 +1,59 @@
+{
+    "code": "etc_exp",
+    "info": {
+        "name" : "봉역 어렴풋한 시각의 틈새",
+        "reward": ["천","명"],
+        "hard": {
+            "level": 25,
+            "count": "0 / 16 / 32"
+        },
+        "veryhard": {
+            "level": 60,
+            "count": "24 / 60 / 120"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["많은 경험치를 획득 가능합니다."]
+    },{
+        "id": 2,
+        "description": ["몽영은 안 나오지만, 이절은 나옵니다."]
+    }],
+    "map": [{
+        "normal": "어렴풋한 시각의 틈새"
+    }],
+    "character": {
+        "statusup": null,
+        "multiple": null,
+        "book": null
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["찌르기", "타격"],
+        "appear": ["어렴풋한 시각의 틈새"]
+    },{
+        "id":2,
+        "weak": ["베기", "마법"],
+        "appear": ["어렴풋한 시각의 틈새"]
+    },{
+        "id":3,
+        "weak": ["베기", "타격"],
+        "appear": ["어렴풋한 시각의 틈새"]
+    },{
+        "id": 4,
+        "weak": ["찌르기", "타격"],
+        "fear": true,
+        "appear": ["어렴풋한 시각의 틈새"]
+    },{
+        "id": 5,
+        "weak": ["베기", "타격"],
+        "fear": true,
+        "appear": ["어렴풋한 시각의 틈새"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["바람", "땅", "불", "물"],
+        "description": ["순서대로 약점이 바뀜", "(첫 턴에 풍속 약점, 2번째 턴에 지속 약점...)"] 
+    }]
+}

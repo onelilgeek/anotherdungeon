@@ -1,0 +1,254 @@
+{
+    "code": "present_garulea_garulea",
+    "info": {
+        "name" : "현대 가를레아 대륙",
+        "reward": ["천", "명"],
+        "hard": {
+            "level": 80,
+            "count": "24 / 60 / 120 / 240 / 360"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["각종 글래스터를 얻을 수 있습니다."]
+    },{
+        "id": 2,
+        "description": ["선턴을 잡기 위해서는", "속도 280 이상이 권장됩니다."]
+    },{
+        "id": 3,
+        "description": ["초반에는 반짝이를 상자보다 우선하세요."]
+    },{
+        "id": 4,
+        "description": ["신사는 꼭 들어가도록 합시다."]
+    }],
+    "map": [{
+        "normal": "쿤룬 산맥",
+        "important": false,
+        "description": ["공격조각 드롭"],
+        "sign": true
+    }, {
+        "normal": "단풍거리",
+        "important": false,
+        "description": ["생명조각 드롭"],
+        "sign": true
+    }, {
+        "normal": "이나나리 고원",
+        "important": false,
+        "description": ["생명조각 드롭"],
+        "sign": true
+    }, {
+        "normal": "고양이 신사",
+        "important": true,
+        "description": ["고양이 에마 획득"],
+        "sign": true
+    }, {
+        "normal": "황폐한 절",
+        "important": false,
+        "description": ["공격조각 드롭"],
+        "sign": true
+    }, {
+        "normal": "이동요새 지라이야",
+        "important": false,
+        "description": ["공격조각 드롭"],
+        "sign": true
+    }, {
+        "normal": "요마전",
+        "important": false,
+        "description": ["생명조각 드롭"],
+        "sign": true
+    }, {
+        "normal": "나그샴",
+        "important": false,
+        "description": ["글래스터 교환"],
+        "sign": true
+    }],
+    "character": {
+        "statusup": ["아자미"],
+        "multiple": null,
+        "book": null
+    },
+    "monster": [{
+        "id": 1,
+        "weak": ["불"],
+        "resist": ["땅"],
+        "fear": false,
+        "description": ["체력 많음"],
+        "appear": ["이나나리 고원"]
+    },{
+        "id": 2,
+        "weak": ["불"],
+        "resist": ["베기", "바람"],
+        "fear": false,
+        "appear": ["이나나리 고원"]
+    },{
+        "id": 3,
+        "weak": ["물"],
+        "resist": ["불"],
+        "fear": false,
+        "description": ["속도 빠름"],
+        "appear": ["이나나리 고원", "단풍거리"]
+    },{
+        "id": 4,
+        "weak": ["땅", "찌르기"],
+        "resist": ["바람"],
+        "fear": false,
+        "appear": ["이동요새 지라이야"]
+    },{
+        "id": 5,
+        "weak": ["물", "타격"],
+        "resist": ["불", "찌르기"],
+        "fear": false,
+        "appear": ["이동요새 지라이야"]
+    },{
+        "id": 6,
+        "weak": ["찌르기", "바람"],
+        "resist": ["땅"],
+        "fear": false,
+        "appear": ["이동요새 지라이야"]
+    },{
+        "id": 7,
+        "weak": ["베기", "불"],
+        "resist": ["찌르기", "물"],
+        "fear": false,
+        "appear": ["이동요새 지라이야"]
+    },{
+        "id": 8,
+        "weak": ["베기", "땅"],
+        "resist": ["불", "물"],
+        "fear": false,
+        "appear": ["쿤룬 산맥"]
+    },{
+        "id": 9,
+        "weak": ["땅", "찌르기"],
+        "resist": ["불", "물"],
+        "fear": false,
+        "appear": ["쿤룬 산맥"]
+    },{
+        "id": 10,
+        "weak": ["땅", "타격"],
+        "resist": ["불","찌르기", "물(흡수)"],
+        "fear": false,
+        "appear": ["쿤룬 산맥"]
+    },{
+        "id": 11,
+        "weak": ["불", "베기", "타격"],
+        "resist": ["찌르기"],
+        "fear": false,
+        "appear": ["요마전"]
+    },{
+        "id": 12,
+        "weak": ["땅", "타격"],
+        "appear": ["요마전"]
+    },{
+        "id": 13,
+        "weak": ["땅"],
+        "resist": ["물"],
+        "appear": ["요마전"]
+    },{
+        "id": 14,
+        "weak": ["물"],
+        "resist": ["불"],
+        "appear": ["요마전"]
+    },{
+        "id": 15,
+        "weak": ["타격", "불"],
+        "resist": ["베기"],
+        "description": ["체력 많음"],
+        "appear": ["황폐한 절"]
+    },{
+        "id": 16,
+        "weak": ["물"],
+        "resist": ["불"],
+        "appear": ["황폐한 절"]
+    },{
+        "id": 17,
+        "weak": ["타격", "불"],
+        "resist": ["찌르기"],
+        "description": ["체력 많음"],
+        "appear": ["황폐한 절"]
+    },{
+        "id": 18,
+        "weak": ["물"],
+        "resist": ["불"],
+        "appear": ["황폐한 절"]
+    },{
+        "id": 19,
+        "weak": ["바람"],
+        "appear": ["단풍거리"]
+    },{
+        "id": 21,
+        "weak": ["불"],
+        "appear": ["단풍거리"]
+    },{
+        "id": 22,
+        "weak": ["물"],
+        "resist": ["불(무효)"],
+        "fear": true,
+        "appear": ["황폐한 절"]
+    },{
+        "id": 23,
+        "weak": ["불"],
+        "fear": true,
+        "appear": ["단풍거리"]
+    },{
+        "id": 24,
+        "weak": ["불"],
+        "resist": ["땅"],
+        "fear": true,
+        "appear": ["이나나리 고원"]
+    },{
+        "id": 25,
+        "weak": ["땅", "베기"],
+        "resist": ["불", "물"],
+        "fear": true,
+        "appear": ["쿤룬 산맥"]
+    },{
+        "id": 26,
+        "weak": ["땅", "타격"],
+        "fear": true,
+        "appear": ["요마전"]
+    },{
+        "id": 27,
+        "weak": ["찌르기", "바람"],
+        "resist": ["땅"],
+        "fear": true,
+        "appear": ["이동요새 지라이야"]
+    }],    
+        
+    "boss": [{
+        "id":1,
+        "description": ["힘깎 / 물리내성 버프 활용"]
+    },{
+        "id":2,
+        "weak": ["베기", "땅"],
+        "resist": ["타격", "마법", "물"],
+        "part": [{
+            "id": 1,
+            "name": "꼬리",
+            "weak": ["타격", "땅"],
+            "resist": ["물"]
+        }],
+        "description": ["꼬리 부수고 본체 공격"]
+    },{
+        "id":3,
+        "weak": ["물"],
+        "description": ["빠르게 죽일 수 있으면 가세요"]
+    }],
+    "tokens": [{
+        "id": 1,
+        "description": ["20개 모아 방어구로 교환"]
+    },{
+        "id": 2,
+        "description": ["20개 모아 방어구로 교환"]
+    },{
+        "id": 3,
+        "description": ["20개 모아 방어구로 교환"]
+    },{
+        "id": 4,
+        "description": ["1. HP최대 글래스터", "2. 크리 글래스터(지팡이 제외)", "3. 마법크리 글래스터(가격 2개)",
+                    "4. 망치 회복력 글래스터(가격 3개)", "이후 공격의 경옥으로 교환"]
+    },{
+        "id": 5,
+        "description": ["1. 공격의 경옥", "2. 주력 캐릭터의 상급 글래스터", "3. 알아서(남은 상급 글래스터, 무속성 글래스터 등)"]
+    }]
+}

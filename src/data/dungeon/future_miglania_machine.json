@@ -1,0 +1,80 @@
+{
+    "code": "future_miglania_machine",
+    "info": {
+        "name" : "상야의 영장기관",
+        "reward": ["천", "명"],
+        "veryhard": {
+            "level": 80,
+            "count": "24 / 60 / 120"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["이절과 몽영이 나옵니다."]
+    },{
+        "id": 2,
+        "description": ["새로운 무기 8종 제작이 가능합니다.", 
+            "요구 재료량이 많지만 강화가 필요없고", 
+            "천명치 비례 공격력 증가와 콤보배율 강화 옵션이 있습니다."]
+    },{
+        "id": 3,
+        "description": ["더 자세한 공략은 외부 사이트를 참조하세요.", "https://altema.jp/anaden/anothertokoyo"]
+    }],
+    "map": [{
+        "normal": "설비관리동"
+    }, {
+        "normal": "종합 연구동",
+        "rare": "이학 연구동"
+    }, {
+        "normal": "생명과학 연구동",
+        "rare": "첨단과학 연구소"
+    }],
+    "character": {
+        "statusup": ["큐리오"],
+        "multiple": null,
+        "book": [{"name": "수제트", "kor": "드라고나"},
+                {"name": "이스카", "kor": "애드미럴"},
+                {"name": "투바", "kor": "지오맨서"},
+                {"name": "프레메아", "kor": "듀얼 페르소나"},
+                {"name": "듀이", "kor": "템페스터"}]
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["땅"],
+        "resist": ["물"],
+        "appear": ["설비관리동"]
+    },{
+        "id":2,
+        "weak": ["바람"],
+        "resist": ["땅"],
+        "appear": ["설비관리동"]
+    },{
+        "id":3,
+        "weak": ["불"],
+        "appear": ["설비관리동"]
+    },{
+        "id": 4,
+        "weak": ["불", "마법"],
+        "resist": ["베기", "찌르기", "타격"],
+        "appear": ["설비관리동"]
+    },{
+        "id":5,
+        "weak": ["땅"],
+        "resist": ["물"],
+        "appear": ["설비관리동"],
+        "fear": true
+    },{
+        "id": 6,
+        "weak": ["불", "마법"],
+        "resist": ["베기", "찌르기", "타격"],
+        "appear": ["설비관리동"],
+        "fear": true
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["바람"],
+        "resist": null,
+        "description": ["특이사항 없음"] 
+    }]
+}

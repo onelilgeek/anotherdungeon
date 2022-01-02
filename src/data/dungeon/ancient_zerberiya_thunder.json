@@ -1,0 +1,76 @@
+{
+    "code": "ancient_zerberiya_thunder",
+    "info": {
+        "name" : "고대 제르베리야 번개",
+        "reward": ["천", "명"],
+        "veryhard": {
+            "level": 80,
+            "count": "24 / 60 / 120"
+        },
+        "dream": true
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["이절과 몽영이 나옵니다."]
+    },{
+        "id": 2,
+        "description": ["아주르 무기 3종 제작/강화가 가능합니다.", "(번개속성 무기)"]
+    }],
+    "map": [{
+        "normal": "뇌명 지역"
+    }, {
+        "normal": "섬전 지역",
+        "rare": "비경 지역"
+    }, {
+        "normal": "석층 지대",
+        "rare": "신성 지대"
+    }],
+    "character": {
+        "statusup": ["클라르테"],
+        "multiple": null,
+        "book": [{"name": "메리나", "kor": "말아흐"},
+                {"name": "미스트레아", "kor": "이사야"},
+                {"name": "틸릴", "kor": "어비스 데보티"},
+                {"name": "로제타", "kor": "저지먼트"},
+                {"name": "미르샤", "kor": "에페파네노스"}]
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["그림자"],
+        "appear": ["뇌명 지역", "섬전 지역"]
+    },{
+        "id":2,
+        "resist": ["마법"],
+        "appear": ["뇌명 지역", "섬전 지역"]
+    },{
+        "id":3,
+        "appear": ["뇌명 지역", "섬전 지역"]
+    },{
+        "id": 4,
+        "appear": ["석층 지대"]
+    },{
+        "id": 5,
+        "weak": ["그림자", "타격"],
+        "appear": ["석층 지대"]
+    },{
+        "id": 6,
+        "weak": ["불"],
+        "appear": ["석층 지대"]
+    },{
+        "id":7,
+        "weak": ["그림자"],
+        "fear": true,
+        "appear": ["뇌명 지역", "섬전 지역"]
+    },{
+        "id":8,
+        "weak": ["그림자", "타격"],
+        "fear": true,
+        "appear": ["석층 지대"]
+    }],
+    "boss": [{
+        "id":1,
+        "weak": ["그림자"],
+        "resist": ["번개(흡수)"],
+        "description": ["50% 이하 패턴변화", "마법공격 위주 패턴"]
+    }]
+}

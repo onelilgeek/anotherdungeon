@@ -1,0 +1,88 @@
+{
+    "code": "present_miglania_atelier_2",
+    "info": {
+        "name" : "망향의 아틀리에 - 순례",
+        "reward": ["천", "명"],
+        "veryhard": {
+            "level": 72,
+            "count": "24 / 60 / 120"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["이번 던전은 보스전에서 최대한 많은 딜을 넣어야 합니다.",
+                        "노말은 1턴에 9000만, 하드는 3턴에 45억을 넣어야 최대 보상입니다."]
+    },{
+        "id": 2,
+        "description": ["몬스터를 잡아서 파티에 버프를 부여하거나",
+                        "Zone을 설정할 수 있습니다.",
+                        "각 맵에서 3번만 전투할 수 있기 때문에 총 버프 개수 제한은 9개입니다."]
+    }, {
+        "id": 3,
+        "description": ["녹빛의 마석(錆色の魔石)은",
+                        "묘소를 클리어할 때마다 획득이 가능하며",
+                        "보조 아이템을 교환하는 데 사용합니다."]
+    }, {
+        "id": 4,
+        "description": ["진홍색 마석(浅緋色の魔石)은",
+                        "묘소 클리어 후 등장하는 시인과",
+                        "아이템을 교환할 때 사용합니다."]
+    }, {
+        "id": 5,
+        "description": ["또한, 누적 획득에 따라 보상이 있습니다."]
+    }, {
+        "id": 6,
+        "description": ["모든 속성에서 45억 딜을 달성하면",
+                        "차원의 틈새 기억의 방을 통해 연옥계에 진입할 수 있고", 
+                        "군상 보스의 그림자와 싸울 수 있습니다(난이도 높음)"]
+    }],
+    "map": [{
+        "normal": "불의 순례"
+    }, {
+        "normal": "물의 순례"
+    }, {
+        "normal": "바람의 순례"
+    }, {
+        "normal": "땅의 순례"
+    }],
+    "character": {
+        "statusup": null,
+        "multiple": null,
+        "book": null
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["물"],
+        "appear": ["불의 순례"]
+    },{
+        "id":2,
+        "weak": ["땅"],
+        "appear": ["물의 순례"]
+    },{
+        "id":3,
+        "weak": ["불"],
+        "appear": ["바람의 순례"]
+    },{
+        "id":4,
+        "weak": ["바람"],
+        "appear": ["땅의 순례"]
+    }],
+        
+    "boss": [{
+        "id":1,
+        "weak": ["물"],
+        "description": ["Normal : 1T, Hard : 3T"]
+    },{
+        "id":2,
+        "weak": ["땅"],
+        "description": ["Normal : 1T, Hard : 3T"]
+    },{
+        "id":3,
+        "weak": ["불"],
+        "description": ["Normal : 1T, Hard : 3T"]
+    },{
+        "id":4,
+        "weak": ["바람"],
+        "description": ["Normal : 1T, Hard : 3T"]
+    }]
+}

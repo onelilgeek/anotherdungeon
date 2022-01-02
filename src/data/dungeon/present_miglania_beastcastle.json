@@ -1,0 +1,67 @@
+{
+    "code": "present_miglania_beastcastle",
+    "info": {
+        "name" : "마수성",
+        "reward": ["명"],
+        "hard": {
+            "level": 64,
+            "count": "0 / 24 / 96"
+        },
+        "veryhard": {
+            "level": 72,
+            "count": "24 / 60 / 120"
+        },
+        "dream": true
+    },
+    "preview": null,
+    "map": [{
+        "normal": "전방 호위탑"
+    }, {
+        "normal": "감시탑",
+        "rare": "흉벽부 감시탑"
+    }, {
+        "normal": "주탑",
+        "rare": "주탑 내 저장고"
+    }],
+    "character": {
+        "statusup": ["피네"],
+        "multiple": null,
+        "book": [{"name": "길드너", "kor": "마왕"},
+            {"name": "호오즈키", "kor": "구미호"},
+            {"name": "빅트", "kor": "인드라"},
+            {"name": "플람라피스", "kor": "스카디"}]
+    },
+    "monster": [{
+        "id":1,
+        "appear": ["전방 호위탑", "감시탑", "주탑"]
+    },{
+        "id":2,
+        "appear": ["전방 호위탑", "감시탑", "주탑"]
+    },{
+        "id":3,
+        "appear": ["전방 호위탑", "감시탑", "주탑"]
+    },{
+        "id":4,
+        "appear": ["전방 호위탑", "감시탑", "주탑"]
+    },{
+        "id":5,
+        "weak": ["바람"],
+        "resist": ["땅"],
+        "appear": ["전방 호위탑", "감시탑", "주탑"]
+    },{
+        "id":6,
+        "weak": ["땅"],
+        "resist": ["불"],
+        "appear": ["전방 호위탑", "감시탑", "주탑"]
+    },{
+        "id":7,
+        "weak": ["땅"],
+        "resist": ["불"],
+        "fear": true,
+        "appear": ["전방 호위탑", "감시탑"]
+    }],        
+    "boss": [{
+        "id":1,
+        "description": ["빈사 상태에서 즉사기 있음"] 
+    }]
+}

@@ -1,0 +1,142 @@
+{
+    "code": "shadow_dimension",
+    "info": {
+        "name" : "명협계",
+        "reward": ["천", "명"],
+        "hard": {
+            "level": 80,
+            "count": "24 / 60 / 120 / 240 / 360"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["각종 글래스터 + 연성 재료를 얻을 수 있습니다."]
+    },{
+        "id": 2,
+        "description": ["피어는 꼭 잡으세요(표착물을 줍니다)"]
+    },{
+        "id": 3,
+        "description": ["비가 오면 고양이 신사가 나타납니다"]
+    }],
+    "map": [{
+        "normal": "동시영역",
+        "important": false,
+        "description": ["반짝이 줍기"]
+    }, {
+        "normal": "동시영역(반짝이)",
+        "important": true,
+        "description": ["반짝이가 흩날릴 때 신사로 가는 길이 나타남"]
+    }, {
+        "normal": "귀화동굴",
+        "important": false,
+        "description": ["처음은 여기만 열려 있음"]
+    }, {
+        "normal": "차원대성당",
+        "important": false,
+        "description": ["아저씨에게 사다리를 넘긴 후 해금 가능"]
+    }, {
+        "normal": "황천의 방주",
+        "important": false,
+        "description": ["음유시인에게 토우를 구입 후 해금 가능"]
+    }, {
+        "normal": "신의 능묘",
+        "important": false,
+        "description": ["입장시 벽화의 파편 필요", "높은 확률로 보스방에서 경옥"]
+    }],
+    "character": {
+        "statusup": ["알테나"],
+        "multiple": null,
+        "book": [{"name": "알도", "kor": "드래곤 베어러"},
+            {"name": "피네", "kor": "고귀한 소녀"}]
+    },
+    "monster": [{
+        "id": 1,
+        "fear": true,
+        "weak": ["마법", "그림자", "번개", "결정"],
+        "resist": ["베기", "타격", "찌르기"],
+        "appear": ["동시영역"]
+    },{
+        "id": 2,
+        "fear": true,
+        "weak": ["베기", "찌르기", "땅", "결정", "번개"],
+        "resist": ["타격", "불", "물(흡수)", "그림자(흡수)"],
+        "appear": ["귀화동굴"]
+    },{
+        "id": 3,
+        "fear": true,
+        "weak": ["물", "번개", "마법"],
+        "resist": ["불"],
+        "appear": ["차원대성당"]
+    },{
+        "id": 4,
+        "fear": true,
+        "weak": ["바람", "결정"],
+        "appear": ["황천의 방주"]
+    },{
+        "id": 5,
+        "fear": true,
+        "weak": ["불", "물", "결정"],
+        "appear": ["신의 능묘"]
+    },{
+        "id": 6,
+        "weak": ["불", "번개", "결정"],
+        "resist": ["땅", "그림자"],
+        "appear": ["귀화동굴"]
+    },{
+        "id": 7,
+        "weak": ["베기", "찌르기", "땅", "결정", "번개"],
+        "resist": ["타격", "불", "물(흡수)", "그림자(흡수)"],
+        "description": ["체력 많음"],
+        "appear": ["귀화동굴"]
+    },{
+        "id": 8,
+        "weak": ["불", "번개"],
+        "appear": ["차원대성당"]
+    },{
+        "id": 9,
+        "weak": ["바람", "번개", "결정"],
+        "resist": ["물", "그림자"],
+        "appear": ["귀화동굴"]
+    },{
+        "id": 10,
+        "weak": ["물", "번개", "마법"],
+        "resist": ["불"],
+        "appear": ["차원대성당"]
+    },{
+        "id": 11,
+        "weak": ["그림자"],
+        "resist": ["물", "번개"],
+        "appear": ["황천의 방주"]
+    },{
+        "id": 12,
+        "weak": ["바람", "결정"],
+        "appear": ["황천의 방주"]
+    }],    
+        
+    "boss": [{
+        "id":1,
+        "weak": ["땅"],
+        "resist": ["찌르기", "타격"],
+        "description": ["특이사항 없음"]
+    },{
+        "id":2,
+        "weak": ["불"],
+        "description": ["전투 개시와 함께 순돌진 전개"]
+    },{
+        "id":3,
+        "weak": ["물"],
+        "description": ["상자에서 공격경옥을 주므로", "가장 많이 잡게 될 보스"]
+    },{
+        "id":4,
+        "weak": ["바람"],
+        "description": ["특이사항 없음"]
+    }],
+    "tokens": [{
+        "id": 1,
+        "description": ["1. 차원대성당 & 황천의 방주 해금", "2-1. 신의 능묘 입장(벽화 1개 = 표착물 30개)", 
+            "2-2. 필요한 연성재료/글래스터"]
+    },{
+        "id": 2,
+        "description": ["1. 열쇠를 교환하여 방어구 교환", "2. 필요한 연성재료/글래스터"]
+    }]
+}
