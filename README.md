@@ -1,6 +1,8 @@
 # Another Dungeon V2
 [Another Dungeon 페이지로 이동](https://hu-lee.github.io/anotherdungeon/)
 
+**직접 만든 이미지들이 있어 public 폴더는 숨겼습니다.**
+
 ### 언어 지원
 한국어, 日本語, English
 
