@@ -130,11 +130,12 @@
     { "kor": "히나기쿠", "jap": "ヒナギク", "eng": "Daisy"},
     { "kor": "큐리오", "jap": "キュリオ", "eng": "Curio"},
     { "kor": "플람라피스", "jap": "フラムラピス", "eng": "Flamlapis"},
-    { "kor": "자장의 창술사", "jap": "紫装の槍使い", "eng": "Toova (Alter)"},
 
     { "kor": "벽광의 낫잡이", "jap": "碧光の鎌使い", "eng": "Suzette (Alter)"},
     { "kor": "적투의 불꽃술사", "jap": "赤套の炎使い", "eng": "Dewey (Alter)"},
     { "kor": "검은 옷의 검사", "jap": "黒衣の刀使い", "eng": "Isuka (Alter)"},
+    { "kor": "자장의 창술사", "jap": "紫装の槍使い", "eng": "Toova (Alter)"},
+    { "kor": "은직의 뇌술사", "jap": "銀織の雷使い", "eng": "Premaya (Alter)"},
 
     { "kor": "세르주", "jap": "セルジュ", "eng": "Serge"},
     { "kor": "키드", "jap": "キッド", "eng": "Kid"},
@@ -319,6 +320,7 @@
     {"eng": "Red Scorpio", "kor": "레드 스콜피온", "jap": "レッドスコーピオ"},
     {"eng": "Judas", "kor": "유다", "jap": "ユダ"},
     {"eng": "Persephone", "kor": "페르세포네", "jap": "ペルセポネ"},
+    {"eng": "Reseph", "kor": "레세프", "jap": "レシェフ"},
 
     {"kor": "나다라 화산", "jap": "ナダラ火山", "eng": "Nadara Volcano"},
     {"kor": "별의 탑", "jap": "星の塔", "eng": "Tower of Stars"},
