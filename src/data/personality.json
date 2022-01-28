@@ -438,5 +438,14 @@
     },{
         "name": "은직의 뇌술사",
         "personality": ["활", "로스트 랩"]
+    },{
+        "name": "수제트(ES)",
+        "personality": ["망치", "로스트 랩", "단것 애호가"]
+    },{
+        "name": "마유",
+        "personality": ["IDA스쿨", "지팡이"]
+    },{
+        "name": "에바",
+        "personality": ["지팡이"]
     }
 ]
