@@ -366,6 +366,7 @@
     {"kor": "망향의 아틀리에 - 순례", "jap": "忘郷のアトリエ - 巡礼", "eng": "Purgatory(Limbo)'s Pilgrimage"},
     {"kor": "이몽 - 시간의 탑", "jap": "異夢・時の塔", "eng": "Dreamslip Tower of Time"},
     {"kor": "상야의 영장기관", "jap": "常夜の霊長機関", "eng": "Sapient Complex: Midnight"},
+    {"kor": "이스카리옷", "jap": "イスカリオテ", "eng": "Iscariot"},
    
     {"kor": "홈으로 이동합니다.", "jap": "ホームに移動します。", "eng": "Back to Main"},
 
@@ -649,6 +650,10 @@
     {   "kor": "이학 연구동", "jap": "理学研究棟", "eng": "Science Research Building" }, 
     {   "kor": "생명과학 연구동", "jap": "生命科学研究棟", "eng": "Life Science Laboratory" }, 
     {   "kor": "첨단과학 연구소", "jap": "先端科学研究所", "eng": "Advanced Science Laboratory" }, 
+
+    {   "kor": "효홍의 층", "jap": "暁紅の階", "eng": "Floor of Bright Red" }, 
+    {   "kor": "백일의 층", "jap": "白日の階", "eng": "Floor of Day" }, 
+    {   "kor": "황혼의 층", "jap": "黄昏の階", "eng": "Floor of Twilight" }, 
 
     {"kor": "캐릭터, 책 이름 입력",
      "jap": "キャラ、記憶の書",

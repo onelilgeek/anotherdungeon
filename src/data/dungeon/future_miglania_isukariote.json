@@ -1,0 +1,74 @@
+{
+    "code": "future_miglania_isukariote",
+    "info": {
+        "name" : "이스카리옷",
+        "reward": ["천", "명"],
+        "veryhard": {
+            "level": 80,
+            "count": "24 / 60 / 120"
+        }
+    },
+    "preview": [{
+        "id": 1,
+        "description": ["이절과 몽영이 나옵니다."]
+    },{
+        "id": 2,
+        "description": ["더 자세한 공략은 외부 사이트를 참조하세요.", "https://altema.jp/anaden/anotherisukariote"]
+    }],
+    "map": [{
+        "normal": "효홍의 층"
+    }, {
+        "normal": "백일의 층"
+    }, {
+        "normal": "황혼의 층"
+    }],
+    "character": {
+        "statusup": ["큐리오", "마유"],
+        "multiple": null,
+        "book": [{"name": "수제트", "kor": "드라고나"},
+                {"name": "이스카", "kor": "애드미럴"},
+                {"name": "투바", "kor": "지오맨서"},
+                {"name": "프레메아", "kor": "듀얼 페르소나"},
+                {"name": "듀이", "kor": "템페스터"}]
+    },
+    "monster": [{
+        "id":1,
+        "resist": ["물", "땅", "번개", "결정", "베기", "찌르기", "마법"],
+        "appear": ["효홍의 층"]
+    },{
+        "id":2,
+        "weak": ["찌르기"],
+        "resist": ["불", "그림자"],
+        "appear": ["효홍의 층"]
+    },{
+        "id":3,
+        "weak": ["베기", "물"],
+        "resist": ["땅", "결정", "마법"],
+        "appear": ["효홍의 층"]
+    },{
+        "id": 4,
+        "weak": ["불"],
+        "resist": ["바람", "번개"],
+        "appear": ["효홍의 층"]
+    },{
+        "id":5,
+        "resist": ["물", "땅", "번개", "결정", "베기", "찌르기", "마법"],
+        "appear": ["효홍의 층"],
+        "fear": true
+    },{
+        "id": 6,
+        "weak": ["찌르기"],
+        "resist": ["불", "그림자"],
+        "appear": ["효홍의 층"],
+        "fear": true
+    }],
+        
+    "boss": [{
+        "id":1,
+        "description": ["큐리오 루트"] 
+    },{
+        "id":2,
+        "resist": ["불", "물", "바람", "땅", "그림자", "번개", "결정"],
+        "description": ["마유 루트"] 
+    }]
+}

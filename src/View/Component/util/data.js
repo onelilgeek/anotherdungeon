@@ -38,5 +38,6 @@ export const dungeonOptions = [
     { value: "present_miglania_weird", label: "기묘한 숲"},
     { value: "present_miglania_rucyana", label: "비경 - 루차나 고적"},
     { value: "present_miglania_chrono1", label: "이몽 - 시간의 탑"},
-    { value: "future_miglania_machine", label: "상야의 영장기관"}
+    { value: "future_miglania_machine", label: "상야의 영장기관"},
+    { value: "future_miglania_isukariote", label: "이스카리옷"}
 ];
