@@ -9,17 +9,17 @@ import Swal from 'sweetalert2';
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_d"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_d_2"))
 
   useEffect(() => {
     if(!announceViewed) {
-      window.localStorage.removeItem("a_v_d_2")
+      window.localStorage.removeItem("a_v_d")
       Swal.fire({
         title: 'Update',
-        html: '2022-02-22<br><br>Up to JAPANESE Ver.2.12.20',
+        html: '2022-03-19<br><br>Up to JAPANESE Ver.2.12.50',
         icon: 'success',
       }).then(() => {
-        window.localStorage.setItem("a_v_d", "true")
+        window.localStorage.setItem("a_v_d_2", "true")
       })
     }
   }, [announceViewed])
